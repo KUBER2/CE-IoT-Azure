@@ -1,0 +1,16 @@
+{
+  "name": "ceiot",
+  "version": "1.0.0",
+  "description": "Simple test to connect to IoT Hub at Azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jakub Rola",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-device": "^1.18.2",
+    "azure-iot-device-http": "^1.14.2"
+  }
+}
